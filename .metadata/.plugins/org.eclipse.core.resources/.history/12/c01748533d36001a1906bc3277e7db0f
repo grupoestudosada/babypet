@@ -1,0 +1,5 @@
+package br.com.babypet.repositories;
+
+public interface ClienteRepository {
+
+}

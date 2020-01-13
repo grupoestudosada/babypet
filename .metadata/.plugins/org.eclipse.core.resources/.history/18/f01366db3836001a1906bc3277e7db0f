@@ -1,0 +1,5 @@
+package br.com.babypet.domain;
+
+public class Cliente {
+
+}
