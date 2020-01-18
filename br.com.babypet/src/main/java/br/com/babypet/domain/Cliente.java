@@ -17,7 +17,7 @@ public class Cliente {
 
 		this.nome = nome;
 		this.cpf = cpf;
-		this.email = email;
+		this.email =email;
 	}
 
 	public String getId() {

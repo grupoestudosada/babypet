@@ -9,7 +9,7 @@ public class BabyPetApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BabyPetApplication.class, args);
 
-		System.out.println("***********");
+		System.out.println("************");
 		System.out.println("Aplicação Rodando!");
 
 	}

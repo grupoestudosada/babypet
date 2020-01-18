@@ -8,15 +8,15 @@ import br.com.babypet.repositories.ClienteRepository;
 
 @Service
 public class ClienteService {
-	
-	@Autowired
-	private ClienteRepository clienteRepository;
-	
-public Cliente incluir(String nome, String cpf, String email ) {
-		
-		Cliente cliente = new Cliente(nome, cpf, email);
-		
-		return clienteRepository.save(cliente);
-	}
-
+  
+  @Autowired
+  private ClienteRepository clienteRepository;
+  
+  public Cliente incluir( String nome, String cpf, String email ) {
+    
+    Cliente cliente = new Cliente( nome, cpf, email );
+    
+    return clienteRepository.save( cliente );
+  }
+  
 }
